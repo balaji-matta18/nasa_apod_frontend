@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080/api/apod";
+const BASE_URL = "http://cosmolens-backend-production.up.railway.app/api/apod";
 
 async function fetchTodayApod() {
     const response = await fetch(`${BASE_URL}/today`);
