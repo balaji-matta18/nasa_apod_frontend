@@ -1,5 +1,4 @@
-// const BASE_URL = "https://cosmolens-backend-production.up.railway.app/api/apod";
-const BASE_URL = "/api/apod";
+const BASE_URL = "https://cosmolens-backend-production.up.railway.app/api/apod";
 
 async function fetchTodayApod() {
     const response = await fetch(`${BASE_URL}/today`);
